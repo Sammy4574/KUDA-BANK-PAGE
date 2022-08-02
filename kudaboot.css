@@ -1,0 +1,64 @@
+html,body{
+    color: #40196D;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: auto;
+}
+@font-face {
+    font-family: sammy;
+    src: url(/Fonts/DM_Serif_Text/DMSerifText-Regular.ttf);
+}
+.acc{
+    color: #40196D; 
+}
+.apply{
+    width: 100px;
+    height: 40px;
+    background-color: #40196D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+.apply:hover{
+    transform: translateY(-5px);
+}
+button{
+    color: #40196D;
+    border: 1px solid #DFE3FF;
+    border-radius: 15%;
+}
+.cbn{
+    font-size: 12px;
+}
+.container{
+    font-family: sammy;
+}
+.first{
+    height: 100vh;
+    padding-right: 350px;
+}
+.fff{
+    padding-left: 150px;
+}
+.getaccount{
+    width: 165px;
+    height: 45px;
+    background-color: #40196D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.purple{
+    color: #40196D;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.small{
+    font-size: 13px;
+}
